@@ -4,14 +4,14 @@ devtools::install_github("PheWAS/PheWAS")
 library(PheWAS)
 ?PheWAS
 vignette("PheWAS-package")
-myphedata <- read.csv("/Users/asudeberber/Desktop/ProfKilpelainenlabCBMR/Variantanalysismydata-Poster/7_77793835_C_T-associated-studies.csv")
+myphedata <- read.csv("/Users/asudeberber/Desktop/-----/Variantanalysismydata-Poster/7_77793835_C_T-associated-studies.csv")
 print(myphedata)
 View(myphedata)
 devtools::install_github("mrcieu/ieugwasr")
 vignette("ieugwasr")
 library(readxl)
 
-myphedata <- read_excel("/Users/asudeberber/Desktop/ProfKilpelainenlabCBMR/Metabolismday2023-AsudePoster/Variant2geneanalysismydata-Poster/rs1045463 -> TMEM60_Asude_phewas.xlsx")
+myphedata <- read_excel("/Users/asudeberber/Desktop/-----/Metabolismday2023-AsudePoster/Variant2geneanalysismydata-Poster/rs1045463 -> TMEM60_Asude_phewas.xlsx")
 View(myphedata)
 vignette("ggplot")
 
